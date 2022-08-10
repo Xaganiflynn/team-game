@@ -15,7 +15,11 @@ D:/unityprojects/team-game/Team Project shooter
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< Updated upstream
 61104
+=======
+58424
+>>>>>>> Stashed changes
 Successfully changed project path to: D:/unityprojects/team-game/Team Project shooter
 D:/unityprojects/team-game/Team Project shooter
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +51,11 @@ D:/unityprojects/team-game/Team Project shooter
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 124.76 ms, found 3 plugins.
+=======
+Refreshing native plugins compatible for Editor in 73.84 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.7f1 (24e8595d6d43)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -63,6 +71,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -76,11 +85,27 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1028ms)
 		BeginReloadAssembly (98ms)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005240 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 72.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.541 seconds
+Domain Reload Profiling:
+	ReloadAssembly (541ms)
+		BeginReloadAssembly (63ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 		EndReloadAssembly (759ms)
 			LoadAssemblies (96ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -95,17 +120,38 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (2ms)
 				ProcessInitializeOnLoadAttributes (211ms)
 				ProcessInitializeOnLoadMethodAttributes (69ms)
+=======
+		EndReloadAssembly (387ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (81ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (240ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (73ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (116ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+>>>>>>> Stashed changes
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.004767 seconds.
+=======
+Registered in 0.003073 seconds.
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\unityprojects\team-game\Team Project shooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\unityprojects\team-game\Team Project shooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -146,6 +192,48 @@ Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 27 unused Assets / (111.0 KB). Loaded Objects now: 3834.
 Memory consumption went from 116.1 MB to 116.0 MB.
 Total: 3.594600 ms (FindLiveObjects: 0.268300 ms CreateObjectMapping: 0.110300 ms MarkObjects: 2.984500 ms  DeleteObjects: 0.230400 ms)
+=======
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.825 seconds
+Domain Reload Profiling:
+	ReloadAssembly (826ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (640ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (303ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.2 KB). Loaded Objects now: 3838.
+Memory consumption went from 116.2 MB to 116.1 MB.
+Total: 2.431100 ms (FindLiveObjects: 0.278500 ms CreateObjectMapping: 0.090900 ms MarkObjects: 1.973600 ms  DeleteObjects: 0.087200 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,6 +247,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 155576.368490 seconds.
   path: Assets
   artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -217,3 +306,27 @@ Received Import Request.
   path: Assets/materials/floor(material).mat
   artifactKey: Guid(90f6311f566eeb540b0e041e325299a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/materials/floor(material).mat using Guid(90f6311f566eeb540b0e041e325299a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104d18ba51d300b1b3097c0a65528746') in 0.013521 seconds 
+=======
+  Time since last request: 54650.890491 seconds.
+  path: Assets/prefabs/Player.prefab
+  artifactKey: Guid(b5076c76cc222884eb09b68397f7fd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Player.prefab using Guid(b5076c76cc222884eb09b68397f7fd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9aade1b05d1c23a7b6129135521f8d') in 0.098486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 99.811519 seconds.
+  path: Assets/Scripts/playerController.cs
+  artifactKey: Guid(8fa9ab12f42cee34db347ff6eef68fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/playerController.cs using Guid(8fa9ab12f42cee34db347ff6eef68fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e2136c18d1e2a213951e0be3be3144') in 0.011584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 214.333261 seconds.
+  path: Assets/Scripts/IDamageable.cs
+  artifactKey: Guid(c37083c69289c4f4e976e3fa17b2c698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/IDamageable.cs using Guid(c37083c69289c4f4e976e3fa17b2c698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0de6975091b774906acc8f0de6e0155') in 0.013089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 562.861891 seconds.
+  path: Assets/prefabs/Block.prefab
+  artifactKey: Guid(96929aa63c2d72e4aa9227085ef5fa0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Block.prefab using Guid(96929aa63c2d72e4aa9227085ef5fa0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54795a68a265ed204b37eb486e1dced1') in 0.029284 seconds 
+>>>>>>> Stashed changes
